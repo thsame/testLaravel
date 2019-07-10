@@ -12,3 +12,4 @@
 */
 
 Route::get('/','IndexController@index')->name('index');
+ROute::get('/bbs.php','bbsController@show')->name('bbs');

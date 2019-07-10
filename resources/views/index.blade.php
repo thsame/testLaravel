@@ -34,7 +34,7 @@
     <div class="card-body">
       <h5 class="card-title">練習</h5>
       <p class="card-text">
-      <a class="btn btn-info" href="#" role="button">簡易BBS</a></p>
+      <a class="btn btn-info" href="/bbs.php" role="button">簡易BBS</a></p>
     </div>
   </div>
   <div class="card" style="width: 18rem; hight = 100rem;">
