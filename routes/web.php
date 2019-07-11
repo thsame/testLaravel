@@ -13,3 +13,5 @@
 
 Route::get('/','IndexController@index')->name('index');
 ROute::get('/bbs.php','bbsController@show')->name('bbs');
+//Route::resource('/bbs.php', 'bbsController@store', ['only' => ['create', 'store']]);
+Route::POST('/bbs.php', 'bbsController@store');
