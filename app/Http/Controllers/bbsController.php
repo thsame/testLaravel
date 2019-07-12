@@ -17,9 +17,9 @@ class bbsController extends Controller
     return view('bbs',['posts'=>$posts]);
   }
 
-  public function store(){
+  public function store(REQUEST $request){
+    echo $request['body'];
     $posts = Post::all();
-    echo "STORE経由";
     return view('bbs',['posts'=>$posts]);
   }
 }
